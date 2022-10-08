@@ -11,6 +11,7 @@ const Shop = () => {
     .then(data => setProducts(data))
   },[])
   return (
+
     <div className='shop-container'>
       <div className='products-container'>
         {
@@ -27,6 +28,7 @@ const Shop = () => {
         <h4>Order Summary</h4>
       </div>
     </div>
+
   );
 };
 

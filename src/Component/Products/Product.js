@@ -5,10 +5,12 @@ const Product = (props) => {
   const {name,img,seller,price,ratings} = props.productValue;
   
   return (
-    <div>
+
+    <div className='product'>
       <img src={img} alt="" />
-      <h1>{name}</h1>
+      <p className='product-name'>{name}</p>
     </div>
+    
   );
 };
 
