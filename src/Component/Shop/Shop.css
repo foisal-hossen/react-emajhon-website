@@ -1,0 +1,11 @@
+.shop-container{
+  display: grid;
+  grid-template-columns: 4;
+}
+
+.products-container{
+
+}
+.cart-container{
+
+}
